@@ -27,15 +27,15 @@
 
 </head>
 
-<body id="page-top">
-  #stars #stars2 #stars3
+<body id="top">
+ 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav" style="
     padding-bottom: 0px;
     padding-top: 0px;">
     <div class="container">
-      <img src="img/logo.png" alt="" style="max-height: 80px">
-      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse"
+      <a class="rounded js-scroll-trigger" href="#top"><img src="img/logo.png" alt="" style="max-height: 80px"></a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase bg text-white rounded" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fa fa-bars"></i>
@@ -55,11 +55,15 @@
       </div>
     </div>
   </nav>
-
+  
+ 
+  
   <!-- Header -->
-  <header class="masthead bg-primary text-white text-center">
-    <div class="container">
-      <img class="img-fluid mb-5 d-block mx-auto" style="max-width: 350px; max-width: height 350px; " src="img/profile.jpg" alt="">
+  
+  <header class="masthead bg text-white text-center">
+    <div id="particles-js"></div>
+    <div id =""class="container">
+      <img class="img-fluid rounded mx-auto" style="max-width: 350px; max-width: height 350px; " src="img/profile.jpg" alt="">
       <h1 class="text-uppercase mb-0">John De Jesus</h1>
       <hr class="star-light">
       <h2 class="font-weight-light mb-0">Web Developer, Notary Public, Paralegal,</h2>
@@ -139,7 +143,7 @@
     </div>
   </section>
   <!-- About Section -->
-  <section class="bg-primary text-white mb-0" id="about">
+  <section class="bg text-white mb-0" id="about">
     <div class="container">
       <h2 class="text-center text-uppercase text-white">About</h2>
       <hr class="star-light mb-5">
@@ -381,6 +385,10 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
+
+  <!-- Particle-js -->
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
 
 
 </body>
