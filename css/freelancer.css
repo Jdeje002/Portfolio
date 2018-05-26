@@ -384,8 +384,42 @@ a:focus, a:hover, a:active {
   position: absolute;
   background-color: #1a252f;
   width: 100%;
-  height: 120%;
+  height: 100%;
   z-index: -1;
 }
 
+/* ipad pro*/
+@media only screen and (max-width: 1024px) {
+  #particles-js {
+  
+    height: 50%;
+  
+  }
+}
+/* ipad*/
+@media only screen and (max-width: 768px) {
+  #particles-js {
+  
+    height: 60%;
+  
+  }
+}
+
+/* iphoneX & non plus */
+@media only screen and (max-width: 375px) {
+  #particles-js {
+  
+    height: 90%;
+  
+  }
+}
+
+/* iphone 7plus */
+@media only screen and (max-width: 414px) {
+  #particles-js {
+  
+    height: 90%;
+  
+  }
+}
 
