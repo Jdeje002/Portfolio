@@ -194,6 +194,7 @@ header.masthead h2 {
   }
 }
 
+
 .portfolio {
   margin-bottom: -15px;
 }
@@ -384,7 +385,7 @@ a:focus, a:hover, a:active {
   position: absolute;
   background-color: #1a252f;
   width: 100%;
-  height: 150%;
+  height: 80%;
   z-index: -1;
 }
 
@@ -392,7 +393,7 @@ a:focus, a:hover, a:active {
 @media only screen and (max-width: 12080px) {
   #particles-js {
     padding-top: 0px;
-    height: 90%;
+    height: 80%;
   
   }
 }
@@ -420,6 +421,9 @@ a:focus, a:hover, a:active {
     height: 90%;
   
   }
+  .cert{
+    float: left;
+  }
 }
 
 /* iphone 7plus */
@@ -429,5 +433,13 @@ a:focus, a:hover, a:active {
     height: 90%;
   
   }
+}
+
+iframe{
+  float: left;  
+}
+
+.cert{
+  margin-left: 10%
 }
 
